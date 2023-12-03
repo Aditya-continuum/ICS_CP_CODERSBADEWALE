@@ -6,7 +6,7 @@ void delay(int seconds);
 //main fn starts here
 int main()
 {
-  int timer,current,i=0;
+  int timer,current;
   time_t start,stop;
   printf("Enter the countdown time in seconds:");
   scanf("%d",&timer);
